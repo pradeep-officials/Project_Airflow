@@ -1,0 +1,3 @@
+docker exec --user=root -it materials-postgres-1 bash
+psql -Uairflow
+airflow=# select * from users;
